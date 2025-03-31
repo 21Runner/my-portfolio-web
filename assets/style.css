@@ -25,6 +25,7 @@ body {
     background-color: #1E3A5F;
     color: #D1D1D1;
     font-family: "Mukta", sans-serif;
+    font-size: 20px;
 }
 
 nav {
@@ -89,4 +90,19 @@ a:hover {
 footer {
     text-align: center;
     background-color: #244e83
+}
+
+footer p {
+    padding: 30px;
+    margin: 0;
+}
+
+.contact ul {
+    padding:0;
+    text-align: right;
+}
+
+.contact li {
+    display: inline;
+    margin-right: 15px;
 }
