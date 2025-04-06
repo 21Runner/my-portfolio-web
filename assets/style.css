@@ -1,7 +1,7 @@
 /* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
 html {
 box-sizing: border-box;
-scroll-behavior: smooth;   /* stránka neodskakuje, ale plynule scrolluje */
+scroll-behavior: smooth;   /* stránka neodskakuje, ale plynule scrolluje (při navigaci pomocí id# odkazů na stránce ) */
 }
 
 *,
@@ -36,8 +36,16 @@ nav {
 }
 
 nav a {
-    margin: 20px;
+    margin-right: 20px;
     border-bottom: 1px solid #F7931A;
+    /* display: inline-block; */
+    /* background-color: black; */
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #F7931A;
+    color: #1E3A5F;
 }
 
 h1 {
@@ -105,4 +113,15 @@ footer p {
 .contact li {
     display: inline;
     margin-right: 15px;
+}
+
+.sandbox {
+    border: 20px double red;
+    border-top-color: blue;
+    border-right-color: blueviolet;
+    border-bottom-color: brown;
+    border-left-color: burlywood;
+    border-radius: 30px;
+    border-style:dashed dotted groove solid;
+    margin-bottom: 20px;
 }
