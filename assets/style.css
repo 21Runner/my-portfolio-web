@@ -126,7 +126,20 @@ footer p {
     margin-bottom: 20px;
 }
 
+.sandbox div {
+    background-color: #244e83 ;
+    min-height: 800px;
+    /* border: 2px dashed white; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 .sandbox img {
-    max-height: 200px;
-    border: 2px solid blue;
+    max-height: 300px;
+    border: 10px solid whitesmoke;
+    border-bottom: 40px solid whitesmoke;
+    margin: 0 20px;
 }
