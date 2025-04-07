@@ -125,3 +125,8 @@ footer p {
     border-style:dashed dotted groove solid;
     margin-bottom: 20px;
 }
+
+.sandbox img {
+    max-height: 200px;
+    border: 2px solid blue;
+}
